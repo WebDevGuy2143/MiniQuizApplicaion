@@ -97,7 +97,6 @@ body {
 
   /* fix default focus on mobile browsers */
     -webkit-tap-highlight-color: transparent; /* Safari/Chrome on iOS and Android */
-    tap-highlight-color: transparent; /* General */
 }
 
 .answer-btn:focus,

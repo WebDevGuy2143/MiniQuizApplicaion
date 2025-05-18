@@ -790,6 +790,8 @@ function showQuestion() {
         button.dataset.correct = answer.correct;
         button.addEventListener("click", selectAnswer);
         answersContainer.appendChild(button);
+        // clear button state
+        button.classList.remove("correct", "incorrect");
     });
 }
 
