@@ -85,7 +85,7 @@ body {
   margin-bottom: 25px;
 }
 
-.answer-btn, .answer-btn:focus, .answer-btn:active {
+.answer-btn {
   background-color: #f8f0e5;
   color: #333;
   border: 2px solid #eadbc8;
@@ -94,6 +94,13 @@ body {
   cursor: pointer;
   text-align: left;
   transition: all 0.3s ease;
+
+  /* fix default focus on mobile browsers */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .answer-btn:hover {
