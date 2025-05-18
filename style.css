@@ -85,7 +85,7 @@ body {
   margin-bottom: 25px;
 }
 
-.answer-btn, .answer-btn:focus {
+.answer-btn, .answer-btn:focus, .answer-btn:active {
   background-color: #f8f0e5;
   color: #333;
   border: 2px solid #eadbc8;
