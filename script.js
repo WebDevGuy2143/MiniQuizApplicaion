@@ -775,12 +775,18 @@ function startQuiz() {
 
 function showQuestion() {
   // Clear existing event listeners and pressed states
-  answersContainer.querySelectorAll('.answer-btn').forEach(button => {
+  const buttons = answersContainer.querySelectorAll('.answer-btn');
+  buttons.forEach(button => {
       button.removeEventListener('click', selectAnswer);
-      button.style.backgroundColor = '#f8f0e5'; // Reset background color
-      button.style.boxShadow = 'none'; // Reset box shadow
-      button.classList.remove('correct', 'incorrect'); // Remove result classes
+      button.style.backgroundColor = '#f8f0e5';
+      button.style.borderColor = '#eadbc8';
+      button.style.boxShadow = 'none';
+      button.classList.remove('correct', 'incorrect', 'pressed');
+      button.removeAttribute('style');
   });
+  
+  // Clear the container and rebuild
+  answersContainer.innerHTML = '';
   
   answersDisabled = false;
   const questions = quizData[currentCategory];
@@ -789,7 +795,6 @@ function showQuestion() {
   const progressPercent = (currentQuestionIndex / questions.length) * 100;
   progressBar.style.width = `${progressPercent}%`;
   questionText.textContent = currentQuestion.question;
-  answersContainer.innerHTML = "";
   
   currentQuestion.answers.forEach((answer) => {
       const button = document.createElement("button");
