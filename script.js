@@ -296,30 +296,12 @@ const quizData = {
         ]
     },
     {
-        question: "Which modern JavaScript feature allows you to create optional parameters?",
-        answers: [
-            { text: "Default parameters", correct: true },
-            { text: "Optional parameters", correct: false },
-            { text: "Rest parameters", correct: false },
-            { text: "Parameter destructuring", correct: false }
-        ]
-    },
-    {
         question: "Which modern CSS feature allows you to create custom animations?",
         answers: [
             { text: "@keyframes", correct: true },
             { text: "animation", correct: false },
             { text: "transition", correct: false },
             { text: "transform", correct: false }
-        ]
-    },
-    {
-        question: "Which modern JavaScript feature allows you to create rest parameters?",
-        answers: [
-            { text: "Rest parameters (...)", correct: true },
-            { text: "Spread operator (...)", correct: false },
-            { text: "Array destructuring", correct: false },
-            { text: "Parameter arrays", correct: false }
         ]
     },
     {
@@ -332,30 +314,12 @@ const quizData = {
         ]
     },
     {
-        question: "Which modern JavaScript feature allows you to create spread arrays?",
-        answers: [
-            { text: "Spread operator (...)", correct: true },
-            { text: "Array destructuring", correct: false },
-            { text: "Array spreading", correct: false },
-            { text: "Array expansion", correct: false }
-        ]
-    },
-    {
         question: "Which modern CSS feature allows you to create custom transforms?",
         answers: [
             { text: "transform", correct: true },
             { text: "transition", correct: false },
             { text: "animation", correct: false },
             { text: "translate", correct: false }
-        ]
-    },
-    {
-        question: "Which modern JavaScript feature allows you to create arrow functions?",
-        answers: [
-            { text: "Arrow functions (=>)", correct: true },
-            { text: "Function expressions", correct: false },
-            { text: "Method definitions", correct: false },
-            { text: "Function declarations", correct: false }
         ]
     },
   {
@@ -395,30 +359,12 @@ const quizData = {
       ]
   },
   {
-      question: "Which modern CSS feature allows you to create custom layout systems?",
-      answers: [
-          { text: "CSS Grid", correct: true },
-          { text: "CSS Flexbox", correct: false },
-          { text: "CSS Tables", correct: false },
-          { text: "CSS Columns", correct: false }
-      ]
-  },
-  {
       question: "Which modern JavaScript feature allows you to create optional parameters?",
       answers: [
           { text: "Default parameters", correct: true },
           { text: "Optional parameters", correct: false },
           { text: "Rest parameters", correct: false },
           { text: "Parameter destructuring", correct: false }
-      ]
-  },
-  {
-      question: "Which modern CSS feature allows you to create custom animations?",
-      answers: [
-          { text: "@keyframes", correct: true },
-          { text: "animation", correct: false },
-          { text: "transition", correct: false },
-          { text: "transform", correct: false }
       ]
   },
   {
@@ -431,30 +377,12 @@ const quizData = {
       ]
   },
   {
-      question: "Which modern CSS feature allows you to create custom transitions?",
-      answers: [
-          { text: "transition", correct: true },
-          { text: "transform", correct: false },
-          { text: "animation", correct: false },
-          { text: "transition-timing", correct: false }
-      ]
-  },
-  {
       question: "Which modern JavaScript feature allows you to create spread arrays?",
       answers: [
           { text: "Spread operator (...)", correct: true },
           { text: "Array destructuring", correct: false },
           { text: "Array spreading", correct: false },
           { text: "Array expansion", correct: false }
-      ]
-  },
-  {
-      question: "Which modern CSS feature allows you to create custom transforms?",
-      answers: [
-          { text: "transform", correct: true },
-          { text: "transition", correct: false },
-          { text: "animation", correct: false },
-          { text: "translate", correct: false }
       ]
   },
   {
