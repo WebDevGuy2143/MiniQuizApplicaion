@@ -791,7 +791,7 @@ function showQuestion() {
         button.addEventListener("click", selectAnswer);
         answersContainer.appendChild(button);
         // clear button state
-        button.classList.remove("correct", "incorrect");
+        button.innderHTML = "";
     });
 }
 
