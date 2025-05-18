@@ -100,7 +100,7 @@ body {
 .answer-btn:focus {
   outline: none;
   /* Optional: Add a custom focus indicator if needed */
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); */
 }
 
 .answer-btn:hover {
