@@ -37,8 +37,8 @@ const quizData = {
     {
         question: "What is the difference between null and undefined in JavaScript?",
         answers: [
-            { text: "null represents an empty value, undefined represents an uninitialized variable", correct: true },
             { text: "null represents an uninitialized variable, undefined represents an empty value", correct: false },
+            { text: "null represents an empty value, undefined represents an uninitialized variable", correct: true },
             { text: "null and undefined are interchangeable", correct: false },
             { text: "null is only used in TypeScript", correct: false }
         ]
@@ -46,17 +46,17 @@ const quizData = {
     {
         question: "In HTML, where does the <title> element belong?",
         answers: [
+            { text: "Between the <head> and <body> elements", correct: false }
             { text: "In the <head> section", correct: true },
             { text: "After the <body> element", correct: false },
             { text: "Before the <body> element", correct: false },
-            { text: "Between the <head> and <body> elements", correct: false }
         ]
     },{
         question: "How many heading tags are there in HTML?",
         answers: [
-            { text: "There are six heading tags", correct: true },
             { text: "There are only one heading tag", correct: false },
             { text: "There are four heading tags", correct: false },
+            { text: "There are six heading tags", correct: true },
             { text: "There are three heading tags", correct: false }
         ]
     },
