@@ -98,18 +98,11 @@ body {
   
   /* Add these properties */
   -webkit-appearance: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-user-select: none;
-  user-select: none;
   position: relative;
   z-index: 1;
-  will-change: background-color, border-color;
 }
 
-.answer-btn:focus,
-.answer-btn:active,
-.answer-btn.pressed {
-  outline: none;
+.answer-btn[data-state="pressed"] {
   background-color: #f8f0e5 !important;
   border-color: #eadbc8 !important;
   box-shadow: none !important;

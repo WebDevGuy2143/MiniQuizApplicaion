@@ -807,34 +807,44 @@ function showQuestion() {
 }
 
 function selectAnswer(event) {
-    if (answersDisabled) return;
-    answersDisabled = true;
-    
-    const selectedButton = event.target;
-    const isCorrect = selectedButton.dataset.correct === "true";
-    
-    Array.from(answersContainer.children).forEach((button) => {
-        if (button.dataset.correct === "true") {
-            button.classList.add("correct");
-        } else if (button === selectedButton) {
-            button.classList.add("incorrect");
-        }
-    });
-    
-    if (isCorrect) {
-        score++;
-        scoreSpan.textContent = score;
-    }
-    
-    setTimeout(() => {
-        currentQuestionIndex++;
-        
-        if (currentQuestionIndex < quizData[currentCategory].length) {
-            showQuestion();
-        } else {
-            showResults();
-        }
-    }, 1000);
+  if (answersDisabled) return;
+  answersDisabled = true;
+  
+  // Reset all buttons first
+  const buttons = answersContainer.querySelectorAll('.answer-btn');
+  buttons.forEach(button => {
+      button.removeAttribute('data-state');
+      button.style.backgroundColor = '';
+      button.style.borderColor = '';
+      button.style.box-shadow = '';
+  });
+  
+  const selectedButton = event.target;
+  const isCorrect = selectedButton.dataset.correct === "true";
+  
+  // Mark the selected button
+  selectedButton.setAttribute('data-state', 'pressed');
+  
+  // Apply correct/incorrect classes
+  if (isCorrect) {
+      selectedButton.classList.add('correct');
+  } else {
+      selectedButton.classList.add('incorrect');
+  }
+  
+  if (isCorrect) {
+      score++;
+      scoreSpan.textContent = score;
+  }
+  
+  setTimeout(() => {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < quizData[currentCategory].length) {
+          showQuestion();
+      } else {
+          showResults();
+      }
+  }, 1000);
 }
 
 function showResults() {
