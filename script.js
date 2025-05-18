@@ -775,6 +775,12 @@ function startQuiz() {
 
 function showQuestion() {
 
+    // provide logic that clears the pressed event listeners for the previous question
+    answersContainer.querySelectorAll('.answer-btn').forEach(button => {
+        button.removeEventListener('click', selectAnswer);
+    });
+
+
     answersDisabled = false;
     const questions = quizData[currentCategory];
     const currentQuestion = questions[currentQuestionIndex];
@@ -784,9 +790,9 @@ function showQuestion() {
     questionText.textContent = currentQuestion.question;
     answersContainer.innerHTML = "";
 
-    answersContainer.querySelectorAll('.answer-btn').forEach(button => {
-      button.classList.remove('correct', 'incorrect');
-    });
+    // answersContainer.querySelectorAll('.answer-btn').forEach(button => {
+    //  button.classList.remove('correct', 'incorrect');
+    //});
     
     currentQuestion.answers.forEach((answer) => {
         const button = document.createElement("button");
