@@ -774,38 +774,31 @@ function startQuiz() {
 }
 
 function showQuestion() {
-
-    // provide logic that clears the pressed event listeners for the previous question
-    answersContainer.querySelectorAll('.answer-btn').forEach(button => {
-        button.removeEventListener('click', selectAnswer);
-    });
-    
-
-
-    answersDisabled = false;
-    const questions = quizData[currentCategory];
-    const currentQuestion = questions[currentQuestionIndex];
-    currentQuestionSpan.textContent = currentQuestionIndex + 1;
-    const progressPercent = (currentQuestionIndex / questions.length) * 100;
-    progressBar.style.width = `${progressPercent}%`;
-    questionText.textContent = currentQuestion.question;
-    answersContainer.innerHTML = "";
-
-    // answersContainer.querySelectorAll('.answer-btn').forEach(button => {
-    //  button.classList.remove('correct', 'incorrect');
-    //});
-    
-    currentQuestion.answers.forEach((answer) => {
-        const button = document.createElement("button");
-        button.textContent = answer.text;
-        button.classList.add("answer-btn");
-        button.dataset.correct = answer.correct;
-        button.addEventListener("click", selectAnswer);
-        answersContainer.appendChild(button);
-
-    });
-
-    
+  // Clear existing event listeners and pressed states
+  answersContainer.querySelectorAll('.answer-btn').forEach(button => {
+      button.removeEventListener('click', selectAnswer);
+      button.style.backgroundColor = '#f8f0e5'; // Reset background color
+      button.style.boxShadow = 'none'; // Reset box shadow
+      button.classList.remove('correct', 'incorrect'); // Remove result classes
+  });
+  
+  answersDisabled = false;
+  const questions = quizData[currentCategory];
+  const currentQuestion = questions[currentQuestionIndex];
+  currentQuestionSpan.textContent = currentQuestionIndex + 1;
+  const progressPercent = (currentQuestionIndex / questions.length) * 100;
+  progressBar.style.width = `${progressPercent}%`;
+  questionText.textContent = currentQuestion.question;
+  answersContainer.innerHTML = "";
+  
+  currentQuestion.answers.forEach((answer) => {
+      const button = document.createElement("button");
+      button.textContent = answer.text;
+      button.classList.add("answer-btn");
+      button.dataset.correct = answer.correct;
+      button.addEventListener("click", selectAnswer);
+      answersContainer.appendChild(button);
+  });
 }
 
 function selectAnswer(event) {
