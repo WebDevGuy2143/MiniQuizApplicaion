@@ -85,7 +85,7 @@ body {
   margin-bottom: 25px;
 }
 
-.answer-btn {
+.answer-btn, .answer-btn:focus {
   background-color: #f8f0e5;
   color: #333;
   border: 2px solid #eadbc8;
@@ -94,13 +94,6 @@ body {
   cursor: pointer;
   text-align: left;
   transition: all 0.3s ease;
-}
-
-/* focus indicator */
-.answer-btn:focus {
-  outline: none;
-  /* Optional: Add a custom focus indicator if needed */
-  /*box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); */
 }
 
 .answer-btn:hover {
