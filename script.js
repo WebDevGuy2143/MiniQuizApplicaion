@@ -46,7 +46,7 @@ const quizData = {
     {
         question: "In HTML, where does the <title> element belong?",
         answers: [
-            { text: "Between the <head> and <body> elements", correct: false }
+            { text: "Between the <head> and <body> elements", correct: false },
             { text: "In the <head> section", correct: true },
             { text: "After the <body> element", correct: false },
             { text: "Before the <body> element", correct: false },
