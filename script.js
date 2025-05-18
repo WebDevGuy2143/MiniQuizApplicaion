@@ -792,12 +792,14 @@ function showQuestion() {
         button.dataset.correct = answer.correct;
         button.addEventListener("click", selectAnswer);
         answersContainer.appendChild(button);
+
+        answersContainer.querySelectorAll('.answer-btn').forEach(button => {
+          button.classList.remove('correct', 'incorrect');
+        });
         
     });
+
     
-    answersContainer.querySelectorAll('.answer-btn').forEach(button => {
-      button.classList.remove('correct', 'incorrect');
-    });
 }
 
 function selectAnswer(event) {
