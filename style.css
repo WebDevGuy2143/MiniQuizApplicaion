@@ -96,6 +96,13 @@ body {
   transition: all 0.3s ease;
 }
 
+/* focus indicator */
+.answer-btn:focus {
+  outline: none;
+  /* Optional: Add a custom focus indicator if needed */
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
 .answer-btn:hover {
   background-color: #eadbc8;
   border-color: #dac0ae;
