@@ -1,5 +1,4 @@
 /* Basic Reset */
-
 * {
   margin: 0;
   padding: 0;
@@ -37,20 +36,30 @@ body {
   display: block;
 }
 
-/* START SCREEN */
-
-#start-screen h1 {
-  color: #e86a33;
-  margin-bottom: 20px;
-  font-size: 2.5rem;
+/* CATEGORY SCREEN */
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-#start-screen p {
-  color: #666;
-  margin-bottom: 30px;
-  font-size: 1.1rem;
+.category-btn {
+  background-color: #e86a33;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.category-btn:hover {
+  background-color: #d45b28;
+}
+
+/* QUIZ SCREEN */
 .quiz-header {
   margin-bottom: 1rem;
 }
@@ -120,7 +129,6 @@ body {
 }
 
 /* RESULT SCREEN */
-
 #result-screen h1 {
   color: #e86a33;
   margin-bottom: 30px;
@@ -162,26 +170,17 @@ button:hover {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 500px) {
-  /* when we hit 500px and below, implement the styles below */
-
   .screen {
-    padding: 1rem;
+      padding: 1rem;
   }
-
-  #start-screen h1 {
-    font-size: 2rem;
-  }
-
   #question-text {
-    font-size: 1.3rem;
+      font-size: 1.3rem;
   }
-
   .answer-btn {
-    padding: 12px;
+      padding: 12px;
   }
-
   button {
-    padding: 12px 25px;
-    font-size: 1rem;
+      padding: 12px 25px;
+      font-size: 1rem;
   }
 }
