@@ -86,26 +86,26 @@ body {
 }
 
 .answer-btn {
-  /* Your existing styles */
-  background-color: #f8f0e5;
-  color: #333;
-  border: 2px solid #eadbc8;
-  border-radius: 10px;
-  padding: 1rem;
-  cursor: pointer;
-  text-align: left;
-  transition: all 0.3s ease;
-  
-  /* Add these properties */
-  -webkit-appearance: none;
-  position: relative;
-  z-index: 1;
+    /* Your existing styles */
+    background-color: #f8f0e5;
+    color: #333;
+    border: 2px solid #eadbc8;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+    
+    /* Add these properties */
+    -webkit-appearance: none;
+    position: relative;
+    z-index: 1;
 }
 
 .answer-btn[data-state="pressed"] {
-  background-color: #f8f0e5 !important;
-  border-color: #eadbc8 !important;
-  box-shadow: none !important;
+    background-color: #f8f0e5 !important;
+    border-color: #eadbc8 !important;
+    box-shadow: none !important;
 }
 
 .answer-btn:hover {
