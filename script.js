@@ -44,6 +44,23 @@ const quizData = {
         ]
     },
     {
+        question: "In HTML, where does the <title> element belong?",
+        answers: [
+            { text: "In the <head> section", correct: true },
+            { text: "After the <body> element", correct: false },
+            { text: "Before the <body> element", correct: false },
+            { text: "Between the <head> and <body> elements", correct: false }
+        ]
+    },{
+        question: "How many heading tags are there in HTML?",
+        answers: [
+            { text: "There are six heading tags", correct: true },
+            { text: "There are only one heading tag", correct: false },
+            { text: "There are four heading tags", correct: false },
+            { text: "There are three heading tags", correct: false }
+        ]
+    },
+    {
         question: "Which HTTP method is used for deleting resources?",
         answers: [
             { text: "DELETE", correct: true },
@@ -59,6 +76,24 @@ const quizData = {
             { text: "To enable server-side rendering", correct: false },
             { text: "To specify TypeScript files", correct: false },
             { text: "To mark static assets", correct: false }
+        ]
+    },
+    {
+        question: "Which CSS property controls the background color of an element?",
+        answers: [
+            { text: "background-color", correct: true },
+            { text: "background", correct: false },
+            { text: "color", correct: false },
+            { text: "background-image", correct: false }
+        ]
+    },
+    {
+        question: "What is the purpose of an alt attribute in HTML?",
+        answers: [
+            { text: "To provide alternative text for accessibility", correct: true },
+            { text: "To specify JavaScript files", correct: false },
+            { text: "To specify TypeScript files", correct: false },
+            { text: "To display text content on the page", correct: false }
         ]
     },
     {
@@ -80,6 +115,24 @@ const quizData = {
         ]
     },
     {
+        question: "What is the difference between inbound links and outbound links in HTML?",
+        answers: [
+            { text: "Inbound links route to the same site, while outbound links route to different sites", correct: true },
+            { text: "They have different attributes", correct: false },
+            { text: "They both refer to the same type of links", correct: false },
+            { text: "There is no difference", correct: false }
+        ]
+    },
+    {
+        question: "In semantic HTML, what is the purpose of the 'main' tag element?",
+        answers: [
+            { text: "To indicate the main content of the page", correct: true },
+            { text: "To create a navigation menu", correct: false },
+            { text: "To define a footer section", correct: false },
+            { text: "To define a header section", correct: false }
+        ]
+    },
+    {
         question: "Which CSS unit is relative to the root element's font size?",
         answers: [
             { text: "rem", correct: true },
@@ -89,12 +142,30 @@ const quizData = {
         ]
     },
     {
+        question: "In semantic HTML, where does the <nav> tag element belong?",
+        answers: [
+            { text: "In the <body> section", correct: true },
+            { text: "In the <head> section", correct: false },
+            { text: "In the <main> section", correct: false },
+            { text: "In the <footer> section", correct: false }
+        ]
+    },
+    {
         question: "What is the purpose of the 'loading' attribute on images?",
         answers: [
             { text: "To control lazy loading behavior", correct: true },
             { text: "To specify image dimensions", correct: false },
             { text: "To set loading priority", correct: false },
             { text: "To define loading states", correct: false }
+        ]
+    },
+    {
+        question: "In the HTML tag element, what does the lang attribute do?",
+        answers: [
+            { text: "To specify the language of the content", correct: true },
+            { text: "To specify the language of the document", correct: false },
+            { text: "To specify the language of the page", correct: false },
+            { text: "To specify the language of the script", correct: false }
         ]
     },
     {
