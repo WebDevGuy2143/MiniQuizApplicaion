@@ -774,6 +774,10 @@ function startQuiz() {
 }
 
 function showQuestion() {
+
+  answersContainer.querySelectorAll('.answer-btn').forEach(button => {
+    button.classList.remove('correct', 'incorrect');
+  });
     
 
     answersDisabled = false;
@@ -793,9 +797,7 @@ function showQuestion() {
         button.addEventListener("click", selectAnswer);
         answersContainer.appendChild(button);
 
-      answersContainer.querySelectorAll('.answer-btn').forEach(button => {
-        button.classList.remove('correct', 'incorrect');
-      });
+      
         
     });
 
