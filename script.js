@@ -779,6 +779,7 @@ function showQuestion() {
     answersContainer.querySelectorAll('.answer-btn').forEach(button => {
         button.removeEventListener('click', selectAnswer);
     });
+    
 
 
     answersDisabled = false;
