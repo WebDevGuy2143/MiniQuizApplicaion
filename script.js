@@ -72,17 +72,17 @@ const quizData = {
   {
       question: "What is the purpose of the 'use client' directive in modern web frameworks?",
       answers: [
-          { text: "To indicate client-side only components", correct: true },
           { text: "To enable server-side rendering", correct: false },
           { text: "To specify TypeScript files", correct: false },
+          { text: "To indicate client-side only components", correct: true },
           { text: "To mark static assets", correct: false }
       ]
   },
   {
       question: "Which CSS property controls the background color of an element?",
       answers: [
-          { text: "background-color", correct: true },
           { text: "background", correct: false },
+          { text: "background-color", correct: true },
           { text: "color", correct: false },
           { text: "background-image", correct: false }
       ]
@@ -90,17 +90,17 @@ const quizData = {
   {
       question: "What is the purpose of an alt attribute in HTML?",
       answers: [
-          { text: "To provide alternative text for accessibility", correct: true },
           { text: "To specify JavaScript files", correct: false },
           { text: "To specify TypeScript files", correct: false },
-          { text: "To display text content on the page", correct: false }
+          { text: "To display text content on the page", correct: false },
+          { text: "To provide alternative text for accessibility", correct: true }
       ]
   },
   {
       question: "Which web performance metric measures the time until the browser can render the first pixels?",
       answers: [
-          { text: "First Contentful Paint (FCP)", correct: true },
           { text: "First Meaningful Paint (FMP)", correct: false },
+          { text: "First Contentful Paint (FCP)", correct: true },
           { text: "Largest Contentful Paint (LCP)", correct: false },
           { text: "Total Blocking Time (TBT)", correct: false }
       ]
@@ -108,17 +108,17 @@ const quizData = {
   {
       question: "What is the recommended approach for handling errors in async/await?",
       answers: [
-          { text: "try/catch blocks", correct: true },
           { text: ".catch() method", correct: false },
           { text: "error callbacks", correct: false },
-          { text: "global error handlers", correct: false }
+          { text: "global error handlers", correct: false },
+          { text: "try/catch blocks", correct: true },
       ]
   },
   {
       question: "What is the difference between inbound links and outbound links in HTML?",
       answers: [
-          { text: "Inbound links route to the same site, while outbound links route to different sites", correct: true },
           { text: "They have different attributes", correct: false },
+          { text: "Inbound links route to the same site, while outbound links route to different sites", correct: true },
           { text: "They both refer to the same type of links", correct: false },
           { text: "There is no difference", correct: false }
       ]
@@ -126,9 +126,9 @@ const quizData = {
   {
       question: "In semantic HTML, what is the purpose of the 'main' tag element?",
       answers: [
-          { text: "To indicate the main content of the page", correct: true },
           { text: "To create a navigation menu", correct: false },
           { text: "To define a footer section", correct: false },
+          { text: "To indicate the main content of the page", correct: true },
           { text: "To define a header section", correct: false }
       ]
   },
@@ -144,17 +144,17 @@ const quizData = {
   {
       question: "In semantic HTML, where does the <nav> tag element belong?",
       answers: [
-          { text: "In the <body> section", correct: true },
           { text: "In the <head> section", correct: false },
           { text: "In the <main> section", correct: false },
-          { text: "In the <footer> section", correct: false }
+          { text: "In the <footer> section", correct: false },
+          { text: "In the <body> section", correct: true },
       ]
   },
   {
       question: "What is the purpose of the 'loading' attribute on images?",
       answers: [
-          { text: "To control lazy loading behavior", correct: true },
           { text: "To specify image dimensions", correct: false },
+          { text: "To control lazy loading behavior", correct: true },
           { text: "To set loading priority", correct: false },
           { text: "To define loading states", correct: false }
       ]
@@ -162,17 +162,17 @@ const quizData = {
   {
       question: "In the HTML tag element, what does the lang attribute do?",
       answers: [
-          { text: "To specify the language of the content", correct: true },
           { text: "To specify the language of the document", correct: false },
           { text: "To specify the language of the page", correct: false },
-          { text: "To specify the language of the script", correct: false }
+          { text: "To specify the language of the script", correct: false },
+          { text: "To specify the language of the content", correct: true },
       ]
   },
   {
       question: "Which JavaScript feature allows you to extract values from arrays and objects?",
       answers: [
-          { text: "Destructuring", correct: true },
           { text: "Spread operator", correct: false },
+          { text: "Destructuring", correct: true },
           { text: "Rest parameters", correct: false },
           { text: "Array methods", correct: false }
       ]
@@ -180,17 +180,17 @@ const quizData = {
   {
       question: "What is the primary purpose of CORS in web applications?",
       answers: [
-          { text: "To enable cross-origin resource sharing", correct: true },
           { text: "To implement authentication", correct: false },
           { text: "To manage cookies", correct: false },
-          { text: "To handle SSL certificates", correct: false }
+          { text: "To handle SSL certificates", correct: false },
+          { text: "To enable cross-origin resource sharing", correct: true },
       ]
   },
   {
       question: "What is the purpose of the 'defer' attribute in script tags?",
       answers: [
-          { text: "To load scripts asynchronously", correct: true },
           { text: "To load scripts synchronously", correct: false },
+          { text: "To load scripts asynchronously", correct: true },
           { text: "To load scripts in parallel", correct: false },
           { text: "To load scripts sequentially", correct: false }
       ]
@@ -207,17 +207,17 @@ const quizData = {
   {
       question: "What is the difference between var and let in JavaScript?",
       answers: [
-          { text: "let has block scope, var has function scope", correct: true },
           { text: "var has block scope, let has function scope", correct: false },
           { text: "let is used for constants, var for variables", correct: false },
+          { text: "let has block scope, var has function scope", correct: true },
           { text: "var is used for constants, let for variables", correct: false }
       ]
   },
   {
       question: "What is the purpose of the 'picture' element in HTML5?",
       answers: [
-          { text: "To implement responsive images", correct: true },
           { text: "To create image galleries", correct: false },
+          { text: "To implement responsive images", correct: true },
           { text: "To add image captions", correct: false },
           { text: "To create image maps", correct: false }
       ]
@@ -225,18 +225,18 @@ const quizData = {
   {
       question: "Which CSS property controls the smoothness of animations?",
       answers: [
-          { text: "transition-timing-function", correct: true },
           { text: "animation-duration", correct: false },
           { text: "animation-timing", correct: false },
-          { text: "transition-duration", correct: false }
+          { text: "transition-duration", correct: false },
+          { text: "transition-timing-function", correct: true },
       ]
   },
   {
       question: "What is the purpose of the 'aria-label' attribute?",
       answers: [
-          { text: "To provide accessibility labels for screen readers", correct: true },
           { text: "To add tooltips to elements", correct: false },
           { text: "To create placeholder text", correct: false },
+          { text: "To provide accessibility labels for screen readers", correct: true },
           { text: "To set element IDs", correct: false }
       ]
   },
@@ -252,8 +252,8 @@ const quizData = {
   {
       question: "What is the purpose of the 'loading' attribute on iframes?",
       answers: [
-          { text: "To control lazy loading behavior", correct: true },
           { text: "To specify loading priority", correct: false },
+          { text: "To control lazy loading behavior", correct: true },
           { text: "To define loading states", correct: false },
           { text: "To set loading timeout", correct: false }
       ]
@@ -270,9 +270,9 @@ const quizData = {
   {
       question: "Which modern web API provides access to clipboard operations?",
       answers: [
-          { text: "Clipboard API", correct: true },
           { text: "Document API", correct: false },
           { text: "Window API", correct: false },
+          { text: "Clipboard API", correct: true },
           { text: "Navigator API", correct: false }
       ]
   },
@@ -288,8 +288,8 @@ const quizData = {
   {
       question: "Which modern CSS feature allows you to create custom layout patterns?",
       answers: [
-          { text: "CSS Grid", correct: true },
           { text: "CSS Flexbox", correct: false },
+          { text: "CSS Grid", correct: true },
           { text: "CSS Tables", correct: false },
           { text: "CSS Columns", correct: false }
       ]
@@ -297,17 +297,18 @@ const quizData = {
   {
       question: "Which modern CSS feature allows you to create custom scroll behaviors?",
       answers: [
-          { text: "scroll-behavior", correct: true },
+          
           { text: "scroll-snap", correct: false },
           { text: "scroll-animation", correct: false },
-          { text: "scroll-transition", correct: false }
+          { text: "scroll-transition", correct: false },
+          { text: "scroll-behavior", correct: true },
       ]
   },
   {
       question: "Which modern JavaScript feature allows you to create optional chaining?",
       answers: [
-          { text: "?. operator", correct: true },
           { text: "?.() operator", correct: false },
+          { text: "?. operator", correct: true },
           { text: "?.[] operator", correct: false },
           { text: "?.{} operator", correct: false }
       ]
@@ -315,26 +316,26 @@ const quizData = {
   {
       question: "Which modern CSS feature allows you to create color-mixing functions?",
       answers: [
-          { text: "color-mix()", correct: true },
           { text: "color-blend()", correct: false },
           { text: "color-combine()", correct: false },
-          { text: "color-mix-blend()", correct: false }
+          { text: "color-mix-blend()", correct: false },
+          { text: "color-mix()", correct: true },
       ]
   },
   {
       question: "Which modern JavaScript feature allows you to create nullish coalescing?",
       answers: [
-          { text: "?? operator", correct: true },
           { text: "?. operator", correct: false },
           { text: "|| operator", correct: false },
+          { text: "?? operator", correct: true },
           { text: "&& operator", correct: false }
       ]
   },
   {
       question: "Which modern JavaScript feature allows you to create dynamic imports?",
       answers: [
-          { text: "import()", correct: true },
           { text: "require()", correct: false },
+          { text: "import()", correct: true },
           { text: "import *", correct: false },
           { text: "export default", correct: false }
       ]
@@ -342,8 +343,8 @@ const quizData = {
   {
       question: "Which modern JavaScript feature allows you to create template literals?",
       answers: [
-          { text: "Template literals", correct: true },
           { text: "String interpolation", correct: false },
+          { text: "Template literals", correct: true },
           { text: "String templates", correct: false },
           { text: "Template strings", correct: false }
       ]
@@ -351,17 +352,18 @@ const quizData = {
   {
       question: "Which modern CSS feature allows you to create custom fonts?",
       answers: [
-          { text: "@font-face", correct: true },
+          
           { text: "font-face", correct: false },
           { text: "custom-fonts", correct: false },
-          { text: "font-custom", correct: false }
+          { text: "font-custom", correct: false },
+          { text: "@font-face", correct: true },
       ]
   },
   {
       question: "Which modern CSS feature allows you to create custom layout systems?",
       answers: [
-          { text: "CSS Grid", correct: true },
           { text: "CSS Flexbox", correct: false },
+          { text: "CSS Grid", correct: true },
           { text: "CSS Tables", correct: false },
           { text: "CSS Columns", correct: false }
       ]
@@ -369,17 +371,17 @@ const quizData = {
   {
       question: "Which modern CSS feature allows you to create custom animations?",
       answers: [
-          { text: "@keyframes", correct: true },
           { text: "animation", correct: false },
           { text: "transition", correct: false },
-          { text: "transform", correct: false }
+          { text: "transform", correct: false },
+          { text: "@keyframes", correct: true }
       ]
   },
   {
       question: "Which modern CSS feature allows you to create custom transitions?",
       answers: [
-          { text: "transition", correct: true },
           { text: "transform", correct: false },
+          { text: "transition", correct: true },
           { text: "animation", correct: false },
           { text: "transition-timing", correct: false }
       ]
@@ -396,17 +398,17 @@ const quizData = {
 {
     question: "Which modern JavaScript feature allows you to create classes?",
     answers: [
-        { text: "class keyword", correct: true },
         { text: "constructor function", correct: false },
         { text: "prototype chain", correct: false },
-        { text: "object literal", correct: false }
+        { text: "object literal", correct: false },
+        { text: "class keyword", correct: true },
     ]
 },
 {
     question: "Which modern JavaScript feature allows you to create async generators?",
     answers: [
-        { text: "async generators", correct: true },
         { text: "async iterators", correct: false },
+        { text: "async generators", correct: true },
         { text: "async functions", correct: false },
         { text: "async methods", correct: false }
     ]
@@ -423,9 +425,9 @@ const quizData = {
 {
     question: "Which modern JavaScript feature allows you to create class private methods?",
     answers: [
-        { text: "#method()", correct: true },
         { text: "private method", correct: false },
         { text: "_method()", correct: false },
+        { text: "#method()", correct: true },
         { text: "method()", correct: false }
     ]
 },
@@ -441,8 +443,8 @@ const quizData = {
 {
     question: "Which modern JavaScript feature allows you to create rest parameters?",
     answers: [
-        { text: "Rest parameters (...)", correct: true },
         { text: "Spread operator (...)", correct: false },
+        { text: "Rest parameters (...)", correct: true },
         { text: "Array destructuring", correct: false },
         { text: "Parameter arrays", correct: false }
     ]
@@ -450,9 +452,9 @@ const quizData = {
 {
     question: "Which modern JavaScript feature allows you to create spread arrays?",
     answers: [
-        { text: "Spread operator (...)", correct: true },
         { text: "Array destructuring", correct: false },
         { text: "Array spreading", correct: false },
+        { text: "Spread operator (...)", correct: true },
         { text: "Array expansion", correct: false }
     ]
 },
