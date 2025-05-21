@@ -559,367 +559,363 @@ const quizData = {
           ]
       },
       {
-        "graphic-design": [
-          {
-            "question": "Which color model is primarily used for digital screens?",
-            "answers": [
-              { "text": "CMYK", "correct": false },
-              { "text": "RGB", "correct": true },
-              { "text": "Pantone", "correct": false },
-              { "text": "HEX", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the recommended minimum contrast ratio for text accessibility?",
-            "answers": [
-              { "text": "3:1", "correct": false },
-              { "text": "2:1", "correct": false },
-              { "text": "4.5:1", "correct": true },
-              { "text": "7:1", "correct": false }
-            ]
-          },
-          {
-            "question": "Which file format is best for logos and vector graphics?",
-            "answers": [
-              { "text": "JPEG", "correct": false },
-              { "text": "PNG", "correct": false },
-              { "text": "GIF", "correct": false },
-              { "text": "SVG", "correct": true }
-            ]
-          },
-          {
-            "question": "What is the purpose of a design system?",
-            "answers": [
-              { "text": "To manage design assets", "correct": false },
-              { "text": "To maintain consistent design patterns across products", "correct": true },
-              { "text": "To create unique designs for each project", "correct": false },
-              { "text": "To document design decisions", "correct": false }
-            ]
-          },
-          {
-            "question": "Which principle of design refers to the way elements are arranged?",
-            "answers": [
-              { "text": "Alignment", "correct": false },
-              { "text": "Balance", "correct": false },
-              { "text": "Composition", "correct": true },
-              { "text": "Contrast", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the term for the empty space between and around design elements?",
-            "answers": [
-              { "text": "Clear space", "correct": false },
-              { "text": "White space", "correct": false },
-              { "text": "Negative space", "correct": true },
-              { "text": "Empty space", "correct": false }
-            ]
-          },
-          {
-            "question": "Which tool is primarily used for user interface design?",
-            "answers": [
-              { "text": "Photoshop", "correct": false },
-              { "text": "Figma", "correct": true },
-              { "text": "Illustrator", "correct": false },
-              { "text": "InDesign", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the purpose of a style guide?",
-            "answers": [
-              { "text": "To create new design patterns", "correct": false },
-              { "text": "To document design standards and usage", "correct": true },
-              { "text": "To manage design assets", "correct": false },
-              { "text": "To track design changes", "correct": false }
-            ]
-          },
-          {
-            "question": "Which design principle refers to the visual weight of elements?",
-            "answers": [
-              { "text": "Balance", "correct": false },
-              { "text": "Emphasis", "correct": true },
-              { "text": "Hierarchy", "correct": false },
-              { "text": "Proportion", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the term for the study of how users interact with products?",
-            "answers": [
-              { "text": "Human-computer interaction", "correct": false },
-              { "text": "User interface (UI)", "correct": false },
-              { "text": "Interaction design", "correct": false },
-              { "text": "User experience (UX)", "correct": true }
-            ]
-          },
-          {
-            "question": "Which font classification typically has small lines or strokes at the ends of characters?",
-            "answers": [
-              { "text": "Sans-serif", "correct": false },
-              { "text": "Display", "correct": false },
-              { "text": "Serif", "correct": true },
-              { "text": "Script", "correct": false }
-            ]
-          },
-          {
-            "question": "What is kerning?",
-            "answers": [
-              { "text": "Adjusting line height", "correct": false },
-              { "text": "Adjusting spacing between characters", "correct": true },
-              { "text": "Adjusting font weight", "correct": false },
-              { "text": "Adjusting paragraph alignment", "correct": false }
-            ]
-          },
-          {
-            "question": "Which resolution is considered standard for print design?",
-            "answers": [
-              { "text": "72 DPI", "correct": false },
-              { "text": "150 DPI", "correct": false },
-              { "text": "300 DPI", "correct": true },
-              { "text": "600 DPI", "correct": false }
-            ]
-          },
-          {
-            "question": "What is a mockup in design terms?",
-            "answers": [
-              { "text": "A coded prototype", "correct": false },
-              { "text": "A wireframe sketch", "correct": false },
-              { "text": "A realistic visual representation of a design", "correct": true },
-              { "text": "An HTML framework", "correct": false }
-            ]
-          },
-          {
-            "question": "Which file format supports animation?",
-            "answers": [
-              { "text": "JPEG", "correct": false },
-              { "text": "PNG", "correct": false },
-              { "text": "GIF", "correct": true },
-              { "text": "TIFF", "correct": false }
-            ]
-          },
-          {
-            "question": "What does CMYK stand for?",
-            "answers": [
-              { "text": "Cyan, Magenta, Yellow, Black", "correct": true },
-              { "text": "Color Mix Yellow Key", "correct": false },
-              { "text": "Cyan, Magenta, Yellow, Keytone", "correct": false },
-              { "text": "Contrast, Magenta, Yellow, Black", "correct": false }
-            ]
-          },
-          {
-            "question": "What does the term ‘responsive design’ mean?",
-            "answers": [
-              { "text": "Designs that react to user input", "correct": false },
-              { "text": "Designs that change based on screen size", "correct": true },
-              { "text": "Designs that are interactive", "correct": false },
-              { "text": "Designs that use animations", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the main purpose of a wireframe?",
-            "answers": [
-              { "text": "Show the color palette", "correct": false },
-              { "text": "Show the typography choices", "correct": false },
-              { "text": "Outline the structure and layout of a page", "correct": true },
-              { "text": "Display final visual design", "correct": false }
-            ]
-          },
-          {
-            "question": "Which principle of design helps create visual hierarchy?",
-            "answers": [
-              { "text": "Repetition", "correct": false },
-              { "text": "Contrast", "correct": true },
-              { "text": "Alignment", "correct": false },
-              { "text": "Proximity", "correct": false }
-            ]
-          },
-          {
-            "question": "Which file type is best for photographs on the web?",
-            "answers": [
-              { "text": "SVG", "correct": false },
-              { "text": "GIF", "correct": false },
-              { "text": "JPEG", "correct": true },
-              { "text": "EPS", "correct": false }
-            ]
-          },
-          {
-            "question": "Which layout type is most often used in Western cultures for reading flow?",
-            "answers": [
-              { "text": "Top to bottom, right to left", "correct": false },
-              { "text": "Right to left", "correct": false },
-              { "text": "Left to right, top to bottom", "correct": true },
-              { "text": "Circular layout", "correct": false }
-            ]
-          },
-          {
-            "question": "Which principle helps unify related items together visually?",
-            "answers": [
-              { "text": "Proximity", "correct": true },
-              { "text": "Balance", "correct": false },
-              { "text": "Repetition", "correct": false },
-              { "text": "Contrast", "correct": false }
-            ]
-          },
-          {
-            "question": "Which design format is ideal for printing business cards?",
-            "answers": [
-              { "text": "PNG", "correct": false },
-              { "text": "TIFF", "correct": false },
-              { "text": "PDF", "correct": true },
-              { "text": "GIF", "correct": false }
-            ]
-          },
-          {
-            "question": "Which color space is used for printed material?",
-            "answers": [
-              { "text": "CMYK", "correct": true },
-              { "text": "RGB", "correct": false },
-              { "text": "HEX", "correct": false },
-              { "text": "HSL", "correct": false }
-            ]
-          },
-          {
-            "question": "Which principle of design refers to the distribution of visual weight?",
-            "answers": [
-              { "text": "Balance", "correct": true },
-              { "text": "Alignment", "correct": false },
-              { "text": "Emphasis", "correct": false },
-              { "text": "Scale", "correct": false }
-            ]
-          },
-          {
-            "question": "What is a brand guideline?",
-            "answers": [
-              { "text": "A manual for company operations", "correct": false },
-              { "text": "A document detailing correct use of brand assets", "correct": true },
-              { "text": "A marketing report", "correct": false },
-              { "text": "An internal HR policy", "correct": false }
-            ]
-          },
-          {
-            "question": "Which design tool is cloud-based and used for collaborative UI design?",
-            "answers": [
-              { "text": "Figma", "correct": true },
-              { "text": "InDesign", "correct": false },
-              { "text": "Sketch", "correct": false },
-              { "text": "Photoshop", "correct": false }
-            ]
-          },
-          {
-            "question": "Which file format preserves layers and is best for editing in Photoshop?",
-            "answers": [
-              { "text": "PSD", "correct": true },
-              { "text": "JPG", "correct": false },
-              { "text": "PNG", "correct": false },
-              { "text": "PDF", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the main function of a grid in design?",
-            "answers": [
-              { "text": "To manage fonts", "correct": false },
-              { "text": "To align and organize content", "correct": true },
-              { "text": "To apply effects", "correct": false },
-              { "text": "To crop images", "correct": false }
-            ]
-          },
-          {
-            "question": "What does the golden ratio relate to in design?",
-            "answers": [
-              { "text": "The optimal font size", "correct": false },
-              { "text": "A natural balance in layout and proportions", "correct": true },
-              { "text": "The best DPI setting", "correct": false },
-              { "text": "Color grading scale", "correct": false }
-            ]
-          },
-          {
-            "question": "What is leading in typography?",
-            "answers": [
-              { "text": "The spacing between letters", "correct": false },
-              { "text": "The thickness of a font", "correct": false },
-              { "text": "The vertical spacing between lines of text", "correct": true },
-              { "text": "The style of the first letter", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the ideal format for exporting icons for the web?",
-            "answers": [
-              { "text": "SVG", "correct": true },
-              { "text": "PDF", "correct": false },
-              { "text": "JPEG", "correct": false },
-              { "text": "PSD", "correct": false }
-            ]
-          },
-          {
-            "question": "What does UI stand for in design?",
-            "answers": [
-              { "text": "User Interaction", "correct": false },
-              { "text": "User Interface", "correct": true },
-              { "text": "Unified Interaction", "correct": false },
-              { "text": "User Internet", "correct": false }
-            ]
-          },
-          {
-            "question": "Which format is best for print-ready vector artwork?",
-            "answers": [
-              { "text": "AI", "correct": true },
-              { "text": "JPG", "correct": false },
-              { "text": "GIF", "correct": false },
-              { "text": "BMP", "correct": false }
-            ]
-          },
-          {
-            "question": "What is a mood board used for in design?",
-            "answers": [
-              { "text": "To display a sitemap", "correct": false },
-              { "text": "To visualize the design direction and inspiration", "correct": true },
-              { "text": "To test user flows", "correct": false },
-              { "text": "To showcase code snippets", "correct": false }
-            ]
-          },
-          {
-            "question": "What is the primary function of contrast in design?",
-            "answers": [
-              { "text": "To unify elements", "correct": false },
-              { "text": "To guide user attention and improve readability", "correct": true },
-              { "text": "To blur the background", "correct": false },
-              { "text": "To add shadows", "correct": false }
-            ]
-          },
-          {
-            "question": "Which of the following is a vector-based Adobe application?",
-            "answers": [
-              { "text": "Illustrator", "correct": true },
-              { "text": "Photoshop", "correct": false },
-              { "text": "XD", "correct": false },
-              { "text": "Lightroom", "correct": false }
-            ]
-          },
-          {
-            "question": "Which export format is best for high-quality photography on the web?",
-            "answers": [
-              { "text": "JPEG", "correct": true },
-              { "text": "SVG", "correct": false },
-              { "text": "TIFF", "correct": false },
-              { "text": "AI", "correct": false }
-            ]
-          },
-          {
-            "question": "Which term describes making something easier for users to understand or use?",
-            "answers": [
-              { "text": "Accessibility", "correct": false },
-              { "text": "Optimization", "correct": false },
-              { "text": "Usability", "correct": true },
-              { "text": "Minimalism", "correct": false }
-            ]
-          },
-          {
-            "question": "Which of these is a non-destructive editing tool in Photoshop?",
-            "answers": [
-              { "text": "Smart Object", "correct": true },
-              { "text": "Flattened image", "correct": false },
-              { "text": "Rasterize layer", "correct": false },
-              { "text": "Merge visible", "correct": false }
-            ]
-          }
+        question: "Which color model is primarily used for digital screens?",
+        answers: [
+          { text: "CMYK", "correct": false },
+          { text: "RGB", "correct": true },
+          { text: "Pantone", "correct": false },
+          { text: "HEX", "correct": false }
+        ]
+      },
+      {
+        question: "What is the recommended minimum contrast ratio for text accessibility?",
+        answers: [
+          { text: "3:1", "correct": false },
+          { text: "2:1", "correct": false },
+          { text: "4.5:1", "correct": true },
+          { text: "7:1", "correct": false }
+        ]
+      },
+      {
+        "question": "Which file format is best for logos and vector graphics?",
+        "answers": [
+          { text: "JPEG", "correct": false },
+          { text: "PNG", "correct": false },
+          { text: "GIF", "correct": false },
+          { text: "SVG", "correct": true }
+        ]
+      },
+      {
+        question: "What is the purpose of a design system?",
+        answers: [
+          { text: "To manage design assets", "correct": false },
+          { text: "To maintain consistent design patterns across products", "correct": true },
+          { text: "To create unique designs for each project", "correct": false },
+          { text: "To document design decisions", "correct": false }
+        ]
+      },
+      {
+        question: "Which principle of design refers to the way elements are arranged?",
+        answers: [
+          { text: "Alignment", "correct": false },
+          { text: "Balance", "correct": false },
+          { text: "Composition", "correct": true },
+          { text: "Contrast", "correct": false }
+        ]
+      },
+      {
+        question: "What is the term for the empty space between and around design elements?",
+        answers: [
+          { text: "Clear space", "correct": false },
+          { text: "White space", "correct": false },
+          { text: "Negative space", "correct": true },
+          { text: "Empty space", "correct": false }
+        ]
+      },
+      {
+        question: "Which tool is primarily used for user interface design?",
+        answers: [
+          { text: "Photoshop", "correct": false },
+          { text: "Figma", "correct": true },
+          { text: "Illustrator", "correct": false },
+          { text: "InDesign", "correct": false }
+        ]
+      },
+      {
+        question: "What is the purpose of a style guide?",
+        answers: [
+          { text: "To create new design patterns", "correct": false },
+          { text: "To document design standards and usage", "correct": true },
+          { text: "To manage design assets", "correct": false },
+          { text: "To track design changes", "correct": false }
+        ]
+      },
+      {
+        question: "Which design principle refers to the visual weight of elements?",
+        answers: [
+          { text: "Balance", "correct": false },
+          { text: "Emphasis", "correct": true },
+          { text: "Hierarchy", "correct": false },
+          { text: "Proportion", "correct": false }
+        ]
+      },
+      {
+        question: "What is the term for the study of how users interact with products?",
+        answers: [
+          { text: "Human-computer interaction", "correct": false },
+          { text: "User interface (UI)", "correct": false },
+          { text: "Interaction design", "correct": false },
+          { text: "User experience (UX)", "correct": true }
+        ]
+      },
+      {
+        question: "Which font classification typically has small lines or strokes at the ends of characters?",
+        answers: [
+          { text: "Sans-serif", "correct": false },
+          { text: "Display", "correct": false },
+          { text: "Serif", "correct": true },
+          { text: "Script", "correct": false }
+        ]
+      },
+      {
+        question: "What is kerning?",
+        answers: [
+          { text: "Adjusting line height", "correct": false },
+          { text: "Adjusting spacing between characters", "correct": true },
+          { text: "Adjusting font weight", "correct": false },
+          { text: "Adjusting paragraph alignment", "correct": false }
+        ]
+      },
+      {
+        question: "Which resolution is considered standard for print design?",
+        answers: [
+          { text: "72 DPI", "correct": false },
+          { text: "150 DPI", "correct": false },
+          { text: "300 DPI", "correct": true },
+          { text: "600 DPI", "correct": false }
+        ]
+      },
+      {
+        question: "What is a mockup in design terms?",
+        answers: [
+          { text: "A coded prototype", "correct": false },
+          { text: "A wireframe sketch", "correct": false },
+          { text: "A realistic visual representation of a design", "correct": true },
+          { text: "An HTML framework", "correct": false }
+        ]
+      },
+      {
+        question: "Which file format supports animation?",
+        answers: [
+          { text: "JPEG", "correct": false },
+          { text: "PNG", "correct": false },
+          { text: "GIF", "correct": true },
+          { text: "TIFF", "correct": false }
+        ]
+      },
+      {
+        question: "What does CMYK stand for?",
+        answers: [
+          { text: "Cyan, Magenta, Yellow, Black", "correct": true },
+          { text: "Color Mix Yellow Key", "correct": false },
+          { text: "Cyan, Magenta, Yellow, Keytone", "correct": false },
+          { text: "Contrast, Magenta, Yellow, Black", "correct": false }
+        ]
+      },
+      {
+        question: "What does the term ‘responsive design’ mean?",
+        answers: [
+          { text: "Designs that react to user input", "correct": false },
+          { text: "Designs that change based on screen size", "correct": true },
+          { text: "Designs that are interactive", "correct": false },
+          { text: "Designs that use animations", "correct": false }
+        ]
+      },
+      {
+        question: "What is the main purpose of a wireframe?",
+        answers: [
+          { text: "Show the color palette", "correct": false },
+          { text: "Show the typography choices", "correct": false },
+          { text: "Outline the structure and layout of a page", "correct": true },
+          { text: "Display final visual design", "correct": false }
+        ]
+      },
+      {
+        question: "Which principle of design helps create visual hierarchy?",
+        answers: [
+          { text: "Repetition", "correct": false },
+          { text: "Contrast", "correct": true },
+          { text: "Alignment", "correct": false },
+          { text: "Proximity", "correct": false }
+        ]
+      },
+      {
+        question: "Which file type is best for photographs on the web?",
+        answers: [
+          { text: "SVG", "correct": false },
+          { text: "GIF", "correct": false },
+          { text: "JPEG", "correct": true },
+          { text: "EPS", "correct": false }
+        ]
+      },
+      {
+        question: "Which layout type is most often used in Western cultures for reading flow?",
+        answers: [
+          { text: "Top to bottom, right to left", "correct": false },
+          { text: "Right to left", "correct": false },
+          { text: "Left to right, top to bottom", "correct": true },
+          { text: "Circular layout", "correct": false }
+        ]
+      },
+      {
+        question: "Which principle helps unify related items together visually?",
+        answers: [
+          { text: "Proximity", "correct": true },
+          { text: "Balance", "correct": false },
+          { text: "Repetition", "correct": false },
+          { text: "Contrast", "correct": false }
+        ]
+      },
+      {
+        question: "Which design format is ideal for printing business cards?",
+        answers: [
+          { text: "PNG", "correct": false },
+          { text: "TIFF", "correct": false },
+          { text: "PDF", "correct": true },
+          { text: "GIF", "correct": false }
+        ]
+      },
+      {
+        question: "Which color space is used for printed material?",
+        answers: [
+          { text: "CMYK", "correct": true },
+          { text: "RGB", "correct": false },
+          { text: "HEX", "correct": false },
+          { text: "HSL", "correct": false }
+        ]
+      },
+      {
+        question: "Which principle of design refers to the distribution of visual weight?",
+        answers: [
+          { text: "Balance", "correct": true },
+          { text: "Alignment", "correct": false },
+          { text: "Emphasis", "correct": false },
+          { text: "Scale", "correct": false }
+        ]
+      },
+      {
+        question: "What is a brand guideline?",
+        answers: [
+          { text: "A manual for company operations", "correct": false },
+          { text: "A document detailing correct use of brand assets", "correct": true },
+          { text: "A marketing report", "correct": false },
+          { text: "An internal HR policy", "correct": false }
+        ]
+      },
+      {
+        question: "Which design tool is cloud-based and used for collaborative UI design?",
+        answers: [
+          { text: "Figma", "correct": true },
+          { text: "InDesign", "correct": false },
+          { text: "Sketch", "correct": false },
+          { text: "Photoshop", "correct": false }
+        ]
+      },
+      {
+        question: "Which file format preserves layers and is best for editing in Photoshop?",
+        answers: [
+          { text: "PSD", "correct": true },
+          { text: "JPG", "correct": false },
+          { text: "PNG", "correct": false },
+          { text: "PDF", "correct": false }
+        ]
+      },
+      {
+        question: "What is the main function of a grid in design?",
+        answers: [
+          { text: "To manage fonts", "correct": false },
+          { text: "To align and organize content", "correct": true },
+          { text: "To apply effects", "correct": false },
+          { text: "To crop images", "correct": false }
+        ]
+      },
+      {
+        question: "What does the golden ratio relate to in design?",
+        answers: [
+          { text: "The optimal font size", "correct": false },
+          { text: "A natural balance in layout and proportions", "correct": true },
+          { text: "The best DPI setting", "correct": false },
+          { text: "Color grading scale", "correct": false }
+        ]
+      },
+      {
+        question: "What is leading in typography?",
+        answers: [
+          { text: "The spacing between letters", "correct": false },
+          { text: "The thickness of a font", "correct": false },
+          { text: "The vertical spacing between lines of text", "correct": true },
+          { text: "The style of the first letter", "correct": false }
+        ]
+      },
+      {
+        question: "What is the ideal format for exporting icons for the web?",
+        answers: [
+          { text: "SVG", "correct": true },
+          { text: "PDF", "correct": false },
+          { text: "JPEG", "correct": false },
+          { text: "PSD", "correct": false }
+        ]
+      },
+      {
+        question: "What does UI stand for in design?",
+        answers: [
+          { text: "User Interaction", "correct": false },
+          { text: "User Interface", "correct": true },
+          { text: "Unified Interaction", "correct": false },
+          { text: "User Internet", "correct": false }
+        ]
+      },
+      {
+        question: "Which format is best for print-ready vector artwork?",
+        answers: [
+          { text: "AI", "correct": true },
+          { text: "JPG", "correct": false },
+          { text: "GIF", "correct": false },
+          { text: "BMP", "correct": false }
+        ]
+      },
+      {
+        question: "What is a mood board used for in design?",
+        answers: [
+          { text: "To display a sitemap", "correct": false },
+          { text: "To visualize the design direction and inspiration", "correct": true },
+          { text: "To test user flows", "correct": false },
+          { text: "To showcase code snippets", "correct": false }
+        ]
+      },
+      {
+        question: "What is the primary function of contrast in design?",
+        answers: [
+          { text: "To unify elements", "correct": false },
+          { text: "To guide user attention and improve readability", "correct": true },
+          { text: "To blur the background", "correct": false },
+          { text: "To add shadows", "correct": false }
+        ]
+      },
+      {
+        question: "Which of the following is a vector-based Adobe application?",
+        answers: [
+          { text: "Illustrator", "correct": true },
+          { text: "Photoshop", "correct": false },
+          { text: "XD", "correct": false },
+          { text: "Lightroom", "correct": false }
+        ]
+      },
+      {
+        question: "Which export format is best for high-quality photography on the web?",
+        answers: [
+          { text: "JPEG", "correct": true },
+          { text: "SVG", "correct": false },
+          { text: "TIFF", "correct": false },
+          { text: "AI", "correct": false }
+        ]
+      },
+      {
+        question: "Which term describes making something easier for users to understand or use?",
+        answers: [
+          { text: "Accessibility", "correct": false },
+          { text: "Optimization", "correct": false },
+          { text: "Usability", "correct": true },
+          { text: "Minimalism", "correct": false }
+        ]
+      },
+      {
+        question: "Which of these is a non-destructive editing tool in Photoshop?",
+        answers: [
+          { text: "Smart Object", "correct": true },
+          { text: "Flattened image", "correct": false },
+          { text: "Rasterize layer", "correct": false },
+          { text: "Merge visible", "correct": false }
         ]
       }
   ],
